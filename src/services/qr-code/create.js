@@ -4,6 +4,5 @@ import { promptQRCode } from "../../prompts/prompt-qrcode.js";
 
 export async function createQRCode() {
     prompt.get(promptQRCode, handle);
-
     prompt.start();
 }
